@@ -1,0 +1,26 @@
+{
+	"name": "huggingface Environment",
+	"build": {
+		"dockerfile": "Dockerfile",
+	},
+
+	"customizations": {
+		"vscode": {
+			"settings" : {
+				"python.defaultInterpreterPath":  "/opt/conda/envs/huggingface-env/bin/python"
+			},
+			"extensions": [
+				// Add Jupyter and Python vscode extensions
+				"ms-toolsai.jupyter",
+				"ms-toolsai.jupyter-renderers",
+				"ms-python.python",
+				"ms-python.vscode-pylance",
+				"vsls-contrib.codetour",
+				"GitHub.copilot"
+			]
+		}
+	},
+
+	// Use 'postAttachCommand' to run commands after the container is started.
+	"postAttachCommand": "micromamba activate huggingface-env"
+}
