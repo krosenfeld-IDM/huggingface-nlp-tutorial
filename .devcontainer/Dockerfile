@@ -12,6 +12,6 @@ USER mambauser
 RUN micromamba create -n huggingface-env python=3.10 -c conda-forge -y
 SHELL ["micromamba", "run", "-n", "huggingface-env", "/bin/bash", "-c"]
 
-RUN pip install -y jupyter transformers[sentencepiece]
+RUN pip install jupyter transformers[sentencepiece]
 
 SHELL ["/bin/bash", "-c"]
