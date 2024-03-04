@@ -4,7 +4,7 @@ USER root
 
 # Install Git
 RUN apt-get update && \
-    apt-get install -y git curl && \
+    apt-get install -y git curl python3-pip && \
     rm -rf /var/lib/apt/lists/*
 
 USER mambauser
