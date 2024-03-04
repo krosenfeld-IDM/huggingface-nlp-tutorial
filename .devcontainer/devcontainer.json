@@ -22,5 +22,5 @@
 	},
 
 	// Use 'postAttachCommand' to run commands after the container is started.
-	"postAttachCommand": "micromamba activate quarto-env"
+	"postAttachCommand": "micromamba activate huggingface-env"
 }
