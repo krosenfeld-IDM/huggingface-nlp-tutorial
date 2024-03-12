@@ -1,5 +1,5 @@
 # huggingface-nlp-tutorial
-Following the huggingface NPL course. All changes are documented via git.
+Following the huggingface NLP course. All changes are documented via git.
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/krosenfeld-IDM/huggingface-nlp-tutorial/tree/devcontainer)
 
